@@ -1,1 +1,3 @@
 build/build.js
+lib/
+views/d3/hierarchical.vue

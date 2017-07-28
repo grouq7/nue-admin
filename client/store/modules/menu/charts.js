@@ -34,14 +34,6 @@ export default {
       meta: {
         link: 'charts/Plotly.vue'
       }
-    },
-    {
-      name: 'D3',
-      path: 'd3',
-      component: lazyLoading('charts/d3'),
-      meta: {
-        link: 'charts/d3.vue'
-      }
     }
   ]
 }

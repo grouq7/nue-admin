@@ -1,6 +1,7 @@
 import * as types from '../../mutation-types'
-import lazyLoading from './lazyLoading'
+// import lazyLoading from './lazyLoading'
 import charts from './charts'
+import d3 from './d3'
 import uifeatures from './uifeatures'
 // import components from './components'
 import tables from './tables'
@@ -21,19 +22,10 @@ const state = {
    //   component: lazyLoading('dashboard', true)
    // },
     charts,
+    d3,
     uifeatures,
     // components,
-    tables,
-    {
-      name: 'NFV',
-      path: '/axiosDemo',
-      meta: {
-        auth: true,
-        icon: 'fa-rocket',
-        link: 'axios/index.vue'
-      },
-      component: lazyLoading('axios', true)
-    }
+    tables
   ]
 }
 
